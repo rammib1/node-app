@@ -1,4 +1,4 @@
-ssh root@143.110.184.40 <<EOF
+ssh -t -t root@143.110.184.40 <<EOF
  cd ~/node-app
  git pull
  npm install --production
